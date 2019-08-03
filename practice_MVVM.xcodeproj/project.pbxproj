@@ -20,6 +20,7 @@
 		5775E4A622F532F200489B91 /* GitHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5775E4A022F5326C00489B91 /* GitHub.framework */; };
 		5775E4A722F532F200489B91 /* GitHub.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5775E4A022F5326C00489B91 /* GitHub.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5775E4AC22F5394E00489B91 /* SearchUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5775E4AB22F5394E00489B91 /* SearchUserModel.swift */; };
+		5775E4AE22F55D9200489B91 /* SearchUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5775E4AD22F55D9200489B91 /* SearchUserViewModel.swift */; };
 		A27B4EDD1E2C90AABCDF7135 /* Pods_practice_MVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EDA3C7C23A64AF6C1D9747 /* Pods_practice_MVVMTests.framework */; };
 		BDDC34D5FEF796B067F276FA /* Pods_practice_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213F1BFE43C253400F330425 /* Pods_practice_MVVM.framework */; };
 /* End PBXBuildFile section */
@@ -113,6 +114,7 @@
 		5775E49C22F5326C00489B91 /* GitHub.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = GitHub.xcworkspace; sourceTree = "<group>"; };
 		5775E49D22F5326C00489B91 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
 		5775E4AB22F5394E00489B91 /* SearchUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserModel.swift; sourceTree = "<group>"; };
+		5775E4AD22F55D9200489B91 /* SearchUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserViewModel.swift; sourceTree = "<group>"; };
 		6CC487CE2146B5B03F635197 /* Pods_practice_MVVMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practice_MVVMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		945630E96ED36C27DEF63D01 /* Pods-practice_MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice_MVVM.debug.xcconfig"; path = "Target Support Files/Pods-practice_MVVM/Pods-practice_MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		B1F973645F3163BF95180129 /* Pods-practice_MVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice_MVVMUITests.release.xcconfig"; path = "Target Support Files/Pods-practice_MVVMUITests/Pods-practice_MVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 				5775E45122F529F200489B91 /* UserCell.xib */,
 				5775E45322F52E5500489B91 /* UserCell.swift */,
 				5775E4AB22F5394E00489B91 /* SearchUserModel.swift */,
+				5775E4AD22F55D9200489B91 /* SearchUserViewModel.swift */,
 			);
 			path = SearchUser;
 			sourceTree = "<group>";
@@ -564,6 +567,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57665A8822F4673300A308A6 /* AppDelegate.swift in Sources */,
+				5775E4AE22F55D9200489B91 /* SearchUserViewModel.swift in Sources */,
 				57665AB922F46E6600A308A6 /* SearchUserViewController.swift in Sources */,
 				5775E4AC22F5394E00489B91 /* SearchUserModel.swift in Sources */,
 				5775E45422F52E5500489B91 /* UserCell.swift in Sources */,
